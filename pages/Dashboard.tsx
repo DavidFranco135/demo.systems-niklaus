@@ -133,7 +133,7 @@ const Dashboard: React.FC<DashboardProps> = ({ onNavigate }) => {
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
           <h1 className={`text-3xl md:text-4xl font-black font-display tracking-tight flex items-center gap-3 ${isDark ? 'text-white' : 'text-zinc-900'}`}>
-            Gestão <span className="text-[#C58A4A] italic">Novo Jeito</span>
+            Gestão <span className="text-[#C58A4A] italic">Niklaus</span>
           </h1>
           <p className={`mt-1 text-sm font-medium opacity-60 ${subTextClass}`}>Controle completo da sua unidade.</p>
         </div>
