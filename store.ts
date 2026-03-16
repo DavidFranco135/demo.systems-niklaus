@@ -347,7 +347,7 @@ export function BarberProvider({ children }: { children?: ReactNode }) {
 
   const login = async (id: string, pass: string) => {
     const adminPass = (config as any).adminPassword || '654326';
-    if (id === 'novojeitoadm@gmail.com' && pass === adminPass) {
+    if (id === 'barbearia_demo@gmail.com' && pass === adminPass) {
       const adminName = config.adminName || 'Novo Jeito';
       const adminAvatar = config.logo || 'https://i.pravatar.cc/150';
       setUser({ id: 'admin', name: adminName, email: id, role: 'ADMIN', avatar: adminAvatar });
