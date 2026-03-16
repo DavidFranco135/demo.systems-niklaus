@@ -184,7 +184,7 @@ const App: React.FC = () => {
                <img src={config.logo} className="w-full h-full object-cover" alt="Logo/Profile" />
             </div>
             <div className="space-y-2">
-              <h1 className={`text-4xl font-black font-display italic tracking-tight ${theme === 'light' ? 'text-zinc-900' : 'text-white'}`}>{isRegistering ? 'Criar Conta' : 'Portal Novo Jeito'}</h1>
+              <h1 className={`text-4xl font-black font-display italic tracking-tight ${theme === 'light' ? 'text-zinc-900' : 'text-white'}`}>{isRegistering ? 'Criar Conta' : 'Portal Niklaus'}</h1>
               <p className={`text-[10px] font-black uppercase tracking-[0.4em] ${theme === 'light' ? 'text-zinc-500' : 'opacity-40'}`}>{isRegistering ? 'Cadastre-se para agendar' : 'Acesse para gerir ou agendar'}</p>
             </div>
           </div>
